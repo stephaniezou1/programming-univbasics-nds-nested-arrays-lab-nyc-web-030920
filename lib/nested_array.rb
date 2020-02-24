@@ -29,6 +29,8 @@ end
 
 def sorted_matrix
   organized_storage = []
+  for i in storage_room.length 
+  
   organized_storage = storage_room.sort
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
